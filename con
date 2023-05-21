@@ -1,0 +1,7 @@
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+let word = 'Hello, World!';
+let reversedWord = reverseString(word);
+console.log(reversedWord);
